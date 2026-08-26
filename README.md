@@ -64,5 +64,24 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Lyte is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://forgeglobal.com/lyte_stock/
+Lyte is a Mountain View, California perception company building an end-to-end integrated vision
+system for robotics and Physical AI. Founded in 2021 by Alexander Shpunt, Arman Hajati and Yuval
+Gerson — architects of Apple's depth-sensing and Face ID perception stack — it emerged from stealth
+in January 2026 with $107M in aggregate funding. Its flagship product, LyteVision, combines 4D
+sensing, RGB imaging and inertial motion awareness with custom silicon and software into a single
+plug-and-play perception platform, and won a CES 2026 Best of Innovation award in Robotics.
+
+Lyte ships hardware and an embedded perception stack rather than a developer platform. As of
+2026-08-25 it publishes no public API, SDK, developer portal, or machine-readable contract: its own
+`llms.txt` and `sitemap.xml` enumerate all sixteen pages on lyte.ai and none is developer-facing,
+and `api.`, `docs.`, `developer.`, `developers.`, `sdk.`, `portal.` and `status.lyte.ai` do not
+resolve. See `x-coverage` in `apis.yml`.
+
+> **Note on identity.** This repo was harvested from a secondary-market listing that carried only the
+> name "Lyte". That name is shared with a San Francisco event-ticketing company (lyte.com) which shut
+> down in September 2024. The company profiled here is the robotics-perception Lyte at **lyte.ai** —
+> confirmed by founders (Hajati/Shpunt) and Mountain View HQ on the source listing.
+
+- https://lyte.ai/
+- https://lyte.ai/Technology
+- https://lyte.ai/News

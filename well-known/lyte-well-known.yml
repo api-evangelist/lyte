@@ -1,0 +1,38 @@
+generated: '2026-08-25'
+method: probed
+source: https://lyte.ai/.well-known/
+note: >-
+  Probed every canonical /.well-known/ path on lyte.ai, the only host Lyte operates
+  (api.lyte.ai, docs.lyte.ai, developer.lyte.ai, developers.lyte.ai, support.lyte.ai,
+  app.lyte.ai, portal.lyte.ai, status.lyte.ai and sdk.lyte.ai all fail to resolve — NXDOMAIN).
+  Every path returned HTTP 404 with a JSON error body from the Base44-hosted origin. No
+  WellKnown or SecurityTxt pointer is emitted in apis.yml because nothing was served: this
+  file records a measured absence, not a presence. A real llms.txt IS served at
+  https://lyte.ai/llms.txt (200, text/plain) and is captured separately in llms/.
+hosts:
+- host: lyte.ai
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null

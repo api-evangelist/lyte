@@ -16,6 +16,17 @@ description: >-
   twins. Lyte ships hardware and an embedded perception stack rather than a developer platform,
   and publishes no public API, SDK, developer portal or machine-readable contract as of this
   profile.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/691d45a813e743f6146d0261/5b76f1f0f_Lyte_logo.png
 url: https://raw.githubusercontent.com/api-evangelist/lyte/refs/heads/main/apis.yml
 x-type: company

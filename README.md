@@ -64,24 +64,83 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Lyte is a Mountain View, California perception company building an end-to-end integrated vision
-system for robotics and Physical AI. Founded in 2021 by Alexander Shpunt, Arman Hajati and Yuval
-Gerson — architects of Apple's depth-sensing and Face ID perception stack — it emerged from stealth
-in January 2026 with $107M in aggregate funding. Its flagship product, LyteVision, combines 4D
-sensing, RGB imaging and inertial motion awareness with custom silicon and software into a single
-plug-and-play perception platform, and won a CES 2026 Best of Innovation award in Robotics.
+Lyte is a Mountain View, California perception company building an end-to-end integrated vision system for robotics and Physical AI. Founded in 2021 by Alexander Shpunt, Arman Hajati and Yuval Gerson — architects of Apple's depth-sensing and Face ID perception stack, and, in Shpunt's case, co-founder and CTO of PrimeSense — the company emerged from stealth in January 2026 with $107M in aggregate funding from Fidelity Management & Research, Atreides Management, Exor Ventures, Key1 Capital, Avigdor Willenz's group and Venture Tech Alliance. Its flagship product, LyteVision, combines 4D sensing (distance plus velocity), RGB imaging and inertial motion awareness with custom silicon and software into a single plug-and-play perception platform for robots, mobility and next-generation automation; it won a CES 2026 Best of Innovation award in Robotics and was named an honoree in Vehicle Tech and Advanced Mobility. Lyte is collaborating with NVIDIA to stream perception into GPUs over Holoscan Sensor Bridge (zero-copy, Jetson Thor, CUDA, NITROS) and into Omniverse and Isaac Sim for real-time digital twins. Lyte ships hardware and an embedded perception stack rather than a developer platform, and publishes no public API, SDK, developer portal or machine-readable contract as of this profile.
 
-Lyte ships hardware and an embedded perception stack rather than a developer platform. As of
-2026-08-25 it publishes no public API, SDK, developer portal, or machine-readable contract: its own
-`llms.txt` and `sitemap.xml` enumerate all sixteen pages on lyte.ai and none is developer-facing,
-and `api.`, `docs.`, `developer.`, `developers.`, `sdk.`, `portal.` and `status.lyte.ai` do not
-resolve. See `x-coverage` in `apis.yml`.
+**Areas:** Robotics · Computer Vision · Perception · Sensors · Physical AI · Semiconductors · Artificial Intelligence · Advanced Mobility · Hardware
 
-> **Note on identity.** This repo was harvested from a secondary-market listing that carried only the
-> name "Lyte". That name is shared with a San Francisco event-ticketing company (lyte.com) which shut
-> down in September 2024. The company profiled here is the robotics-perception Lyte at **lyte.ai** —
-> confirmed by founders (Hajati/Shpunt) and Mountain View HQ on the source listing.
+## Lyte on APIs.io
 
-- https://lyte.ai/
-- https://lyte.ai/Technology
-- https://lyte.ai/News
+Everything profiled for Lyte is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/lyte/](https://apis.io/providers/lyte/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Lyte Domain Security](https://apis.io/security/lyte/lyte-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://lyte.ai/)
+- [Support](https://lyte.ai/Support)
+- [Blog](https://lyte.ai/News)
+- [Terms of service](https://lyte.ai/Terms)
+- [Privacy policy](https://lyte.ai/Privacy)
+
+## API Evangelist rating
+
+**Kin Score 7.7** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 4.8 |
+| Access clarity | 10.5 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 9.1** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/lyte/](https://apis.io/providers/lyte/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Lyte: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/lyte/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
